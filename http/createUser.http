@@ -1,0 +1,10 @@
+POST http://localhost:4000/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Nika",
+    "lastName" : "M",
+    "email" : "johndoe@ukr.net",
+    "password" : "johndoe123",
+    "isSubscribed" : true
+}
